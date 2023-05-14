@@ -1,0 +1,67 @@
+.homePage {
+  min-height: 100vh;
+  background-color: darkslateblue;
+}
+.homePage > .homePageWrapper {
+  position: relative;
+}
+.homePage > .homePageWrapper > header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  min-height: 10vh;
+  background-color: rgb(167, 91, 63);
+  position: sticky;
+  top: 0;
+}
+.homePage .homePageWrapper > p {
+  font-size: 1.4rem;
+}
+.homePage .homePageWrapper > header > input {
+  text-align: center;
+  border: 0;
+}
+.homePage .homePageWrapper > header > input,
+button,
+div > select,
+option {
+  font-size: 1.2rem;
+}
+
+.homePage > .homePageWrapper > header > button:hover {
+  cursor: pointer;
+  filter: invert(1);
+}
+.homePage > .homePageWrapper > .cardContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.homePage > .homePageWrapper > .btnContainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 5px 10px;
+  font-size: 1.4rem;
+}
+.homePage > .homePageWrapper > .btnContainer > button {
+  font-size: 1.3rem;
+  transition: all 0.2s ease;
+  border-radius: 10px;
+}
+.homePage > .homePageWrapper > .btnContainer > button:hover {
+  cursor: pointer;
+  filter: invert(1);
+}
+.homePage > .homePageWrapper > .btnContainer > span {
+  background-color: white;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25%;
+}

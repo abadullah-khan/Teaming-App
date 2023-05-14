@@ -1,0 +1,59 @@
+.card {
+  padding: 5px;
+  border: 1px solid salmon;
+  background-color: blanchedalmond;
+  border-radius: 20px;
+  height: 21rem;
+  width: 26rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card > .imgContainer {
+  background-color: white;
+  border-radius: 10px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}
+.card > .imgContainer > img {
+  display: block;
+  height: 100%;
+}
+.card > .details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.card > .details > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card > .details > div > span {
+  flex: 0.8;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.card > .details > :nth-child(1) > span {
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
+.card > .btnContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.card > .btnContainer > button {
+  border-radius: 8px;
+  padding: 5 10px;
+  font-size: 1.2rem;
+  font-weight: 200;
+  transition: all 0.2s ease;
+}
+.card > .btnContainer button:hover {
+  cursor: pointer;
+  filter: invert(1);
+}
